@@ -101,5 +101,3 @@ fig_map = px.scatter_mapbox(
 )
 fig_map.update_layout(mapbox_style='open-street-map')
 st.plotly_chart(fig_map, use_container_width=True)
-
-streamlit run app.py
